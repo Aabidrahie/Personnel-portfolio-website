@@ -105,14 +105,20 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2.5rem;
+  gap: 27.6rem;
   max-width: 68.75rem;
   margin: auto;
+  margin-top: 42px;
+  padding-bottom: 75px;
 }
 
 .hero img {
-  height: 37.5rem;
-  width: 37.5rem;
+  height: 218px;
+  width: 84.5rem;
+  width: 236px;
+  border: solid;
+  border-radius: 479px;
+  margin-top: 10px;
 }
 
 .bio {
@@ -134,7 +140,7 @@ nav ul li {
 
 /* More about */
 .more-about {
-  background-color: var(--bg-color);
+  background-color:#c3bcc1;
   padding: 1rem 6rem;
 }
 
@@ -369,8 +375,13 @@ footer {
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 30rem;
+    height: 218px;
+    width: 84.5rem;
+    width: 236px;
+    border: solid;
+    border-radius: 479px;
+    margin-top: 10px;
+    padding-bottom: 75px;
   }
 
   .bio {
@@ -410,10 +421,16 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
-  .hero img {
-    height: 37.5rem;
-    width: 23rem;
-  }
+    .hero img {
+      height: 218px;
+      width: 84.5rem;
+      width: 236px;
+      border: solid;
+      border-radius: 479px;
+      margin-top: 10px;
+      padding-bottom: 75px;
+    }
+  
 
   .bio {
     width: 18.3rem;
